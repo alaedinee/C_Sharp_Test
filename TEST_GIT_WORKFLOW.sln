@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEST_GIT_WORKFLOW", "TEST_GIT_WORKFLOW\TEST_GIT_WORKFLOW.csproj", "{1FD1650C-0B9D-4284-91A2-4C91D7082C14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FD1650C-0B9D-4284-91A2-4C91D7082C14}.Debug|x86.ActiveCfg = Debug|x86
+		{1FD1650C-0B9D-4284-91A2-4C91D7082C14}.Debug|x86.Build.0 = Debug|x86
+		{1FD1650C-0B9D-4284-91A2-4C91D7082C14}.Release|x86.ActiveCfg = Release|x86
+		{1FD1650C-0B9D-4284-91A2-4C91D7082C14}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
