@@ -11,6 +11,7 @@ namespace TEST_GIT_WORKFLOW
         {
 
             Console.WriteLine("test git flow");
+            Console.WriteLine("premier modif");
             Console.ReadKey();
 
 
