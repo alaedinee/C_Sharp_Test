@@ -12,6 +12,7 @@ namespace TEST_GIT_WORKFLOW
 
             Console.WriteLine("test git flow");
             Console.WriteLine("premier modif");
+            Console.WriteLine("feauture branche");
             Console.ReadKey();
 
 
