@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BLS>
+<BL>
+<BL name='NUMRECEPISSE'>num 1</BL >
+<BL name='TYPEMVT'>type 1</BL>
+</BL>  
+<LIGNE>
+<LIGNE name='ARTICLE'>article 1</LIGNE>
+<LIGNE name='LIBELLE'>libelle 1</LIGNE>
+</LIGNE>
+<CODEBARRE>
+<CODEBARRE name='CODE'>codebarre 1</CODEBARRE>
+</CODEBARRE>
+</BLS>

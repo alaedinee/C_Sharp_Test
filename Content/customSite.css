@@ -1,0 +1,22 @@
+﻿input[type="submit"], input[type="button"], .all{
+	    border:none;
+	    background:#2e8eca;
+	    color:#fff;
+	    padding : 5px 10px;
+	    cursor : pointer;
+    }
+    #video {
+	    width:560px; 
+	    height:345px;
+	    border: 8px solid #727272;
+        border-radius: 10px 10px 10px 10px;
+        margin: 15px auto;
+    }
+    input[type="submit"]:hover, input[type="button"]:hover, .all:hover {
+	    background:#2e8eca/*#7897b2*/;
+	    color:#fff;
+    }
+    input[type="submit"]:active, input[type="button"]:active, .all:active {
+	    background:rgb(150, 10, 23)/*#364d61*/;
+	    color:#fff;
+    }

@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Access>
+
+	<Item>
+		<Role>CollaborateurMDM</Role>
+		<Links>
+		<!--AgenceController-->
+			<Link>Agence/Index</Link>
+		<!--PrestationController-->
+			<Link>Prestation/getLstPrestation</Link>
+			<Link>Prestation/detailPrest</Link>
+			<Link>Prestation/operationPrestation</Link>
+			<Link>Prestation/prestDetailHisStatus</Link>
+			<Link>Prestation/prestDeleteDetailHis</Link>
+			<Link>Prestation/prestVerifyOTEtat</Link>
+			<Link>Prestation/prestGetFormStatus</Link>
+			<Link>Prestation/prestAddStatus</Link>
+			<Link>Prestation/prestgetIcons</Link>
+			<Link>Prestation/addPrestationRDV</Link>
+			<Link>Prestation/isPrinted</Link>
+		<!--OTController-->
+			<Link>OT/Index</Link>
+			<Link>OT/editReception</Link>
+			<Link>OT/saveRecepDonn</Link>
+			<Link>OT/receptionForm</Link>
+			<Link>OT/genererRec</Link>
+			<Link>OT/destroyReception</Link>
+			<Link>OT/addPackToRecepForm</Link>
+			<Link>OT/addPackToReception</Link>
+			<Link>OT/ListAllReception</Link>
+			<Link>OT/ListPackParReception</Link>
+			<Link>OT/afficherOT</Link>
+			<Link>OT/lstReception</Link>
+			<Link>OT/AfficherOTGroupe</Link>
+			<Link>OT/getOTGroupeType</Link>
+      <Link>OT/ListOTByGroup</Link>
+      <Link>OT/OTToAddInGroupe</Link>
+      <Link>OT/LoadLstOTData_OTToAddInGroupe</Link>
+      <Link>OT/AddOTTOGroupe</Link>
+      <Link>OT/InfoGroupe</Link>
+		<!--MagasinController-->
+			<Link>Magasin/listeMagasin</Link>
+			<Link>Magasin/getMagsinForm</Link>
+			<!-- <Link>Magasin/MAJMagasin</Link>
+			<Link>Magasin/deleteMagasin</Link> -->
+		<!--CommunicationController-->
+			<Link>Communication/getlstCom</Link>
+			<Link>Communication/getLstComm</Link>
+			<Link>Communication/majCommunication</Link>
+			<Link>Communication/eventType</Link>
+			<Link>Communication/AjouterCommunication</Link>
+			<Link>Communication/detailComm</Link>
+		<!--AccueilController-->
+			<Link>Accueil/Index</Link>
+			<Link>Accueil/getNBRCommande_Mag</Link>
+			<Link>Accueil/getRdv_user_Mag</Link>
+			<Link>Accueil/getComUsers</Link>
+		<!--PackageController-->
+			<Link>Package/packGetLst</Link>
+			<Link>Package/packGetPacks</Link>
+			<Link>Package/packGetArticles</Link>
+			<Link>Package/addPackage</Link>
+			<Link>Package/getEmplacement</Link>
+			<Link>Package/getEmplacementComplete</Link>
+			<Link>Package/savePackage</Link>
+			<Link>Package/addMarchandiseReception</Link>
+			<Link>Package/deletePackage</Link>
+			<Link>Package/sendPackage</Link>
+			<Link>Package/ValiderOTChoix</Link>
+			<Link>Package/deleteMultiplesPack</Link>
+			<Link>Package/LstPackageInconnu</Link>
+			<Link>Package/updatePackInconnu</Link>
+			<Link>Package/scannPackInconnu</Link>
+			<Link>Package/printPackage</Link>
+			<Link>Package/getHistoryPackage</Link>
+		<!--ClientController-->
+			<Link>Client/getInfosChargement</Link>
+			<Link>Client/getInfosLivraison</Link>
+			<Link>Client/getInfosDonneur</Link>
+			<Link>Client/clientGetRessources</Link>
+			<Link>Client/clientGetRessourceByCode</Link>
+			<Link>Client/clientGetRessourceByID</Link>
+			<Link>Client/listeClient</Link>
+			<Link>Client/list</Link>
+			<Link>Client/addClient</Link>
+			<Link>Client/MAJClient</Link>
+			<Link>Client/deleteClient</Link>
+			<Link>Client/getClientComplete</Link>
+			<Link>Client/listeFournisseur</Link>
+			<Link>Client/listeFourniss</Link>
+			<!-- <Link>Client/addFournisseur</Link>
+			<Link>Client/deleteFournisseur</Link>
+			<Link>Client/MAJFournisseur</Link> -->
+		<!--ArticleController</Link>-->
+			<Link>Article/Index</Link>
+			<Link>Article/getLstArticles</Link>
+			<Link>Article/getServiceArticle</Link>
+			<Link>Article/getServiceArticleToChoise</Link>
+			<Link>Article/AddArticleService</Link>
+			<Link>Article/DeleteArticleService</Link>
+			<Link>Article/addArticleForm</Link>
+			<Link>Article/VerifyAddArticle</Link>
+			<Link>Article/AddArticle</Link>
+			<Link>Article/showChildsArticle</Link>
+		<!--ImportXMLController-->
+			<Link>ImportXML/ImportCommande</Link>
+			<Link>ImportXML/ImportCommande</Link>
+			<Link>ImportXML/ValiderImportCommande</Link>
+		<!--ExportController-->
+			<Link>Export/Index</Link>
+			<Link>Export/CluturedReception</Link>
+			<Link>Export/GeneratedPDF</Link>
+			<Link>Export/getFileToMerge</Link>
+			<Link>Export/WriteToPdf</Link>
+			<Link>Export/sendEmail</Link>
+		<!--OrdersController-->
+			<Link>Orders/Index</Link>
+			<Link>Orders/Show</Link>
+			<Link>Orders/Afficher</Link>
+			<Link>Orders/test</Link>
+			<Link>Orders/getLstOT</Link>
+			<Link>Orders/getLstOT1</Link>
+			<Link>Orders/LoadLstOTData</Link>
+			<Link>Orders/getLstOTRDV</Link>
+			<Link>Orders/exportLstOTRDV</Link>
+			<Link>Orders/exportLstOT</Link>
+			<Link>Orders/getLstOTcloture</Link>
+			<Link>Orders/LoadLstOTDataCloture</Link>
+			<Link>Orders/getLst</Link>
+			<Link>Orders/FormRessource</Link>
+			<Link>Orders/getFormRessourceColumns</Link>
+			<Link>Orders/getForm</Link>
+			<Link>Orders/getSteps</Link>
+			<Link>Orders/saveRessource</Link>
+			<Link>Orders/saveRessourceFigee</Link>
+			<Link>Orders/getRefListMagasin</Link>
+			<Link>Orders/OTGetInfos</Link>
+			<Link>Orders/getAdresseComplete</Link>
+			<Link>Orders/getPaysComplete</Link>
+			<Link>Orders/OTGetRessources</Link>
+			<Link>Orders/OTGetRessourceClientByID</Link>
+			<Link>Orders/GetInfoMagByOTID</Link>
+			<Link>Orders/CloturerOT</Link>
+			<Link>Orders/propositionOT</Link>
+			<Link>Orders/verifierOTexiste</Link>
+		<!--EmplacementController-->
+			<Link>Emplacement/Index</Link>
+			<Link>Emplacement/getEmplacements</Link>
+			<!-- <Link>Emplacement/addEmplacement</Link>
+			<Link>Emplacement/saveEmplacement</Link>
+			<Link>Emplacement/deleteEmplacement</Link> -->
+			<Link>Emplacement/getEmplacement</Link>
+			<Link>Emplacement/printEmplacements</Link>
+		<!--MobController-->
+			<Link>Mob/GetFromPrint</Link>
+			<Link>Mob/printTag</Link>
+		<!--UserController-->
+			<Link>User/LogOn</Link>
+			<Link>User/LogOut</Link>
+			<Link>User/LogOn</Link>
+			<Link>User/KAlive</Link>
+			<Link>User/getMenu</Link>
+		<!--AjoindreController-->
+			<Link>Ajoindre/ajForm</Link>
+			<Link>Ajoindre/addTypeForm</Link>
+			<Link>Ajoindre/saveTypeDoc</Link>
+			<Link>Ajoindre/deleteTypeForm</Link>
+			<Link>Ajoindre/deleteType</Link>
+			<Link>Ajoindre/ajChargerFichier</Link>
+			<Link>Ajoindre/listDoc</Link>
+			<Link>Ajoindre/deleteDoc</Link>
+			<Link>Ajoindre/ImprimeBL</Link>
+			<Link>Ajoindre/Imprime_BL_MULTI</Link>
+		</Links>
+	</Item>
+	<Item>
+		<Role>Collaborateur</Role>
+		<Links>
+			
+		<!--PrestationController-->
+		
+		<!--OTController-->
+		
+		<!--MagasinController-->
+			<Link>Magasin/MAJMagasin</Link>
+			<Link>Magasin/deleteMagasin</Link>
+			
+		<!--CommunicationController-->
+		
+		<!--AccueilController-->
+		
+		<!--PackageController-->
+		
+		<!--ClientController-->
+			<Link>Client/addFournisseur</Link>
+			<Link>Client/deleteFournisseur</Link>
+			<Link>Client/MAJFournisseur</Link> 
+			
+		<!--ArticleController</Link>-->
+		
+		<!--ImportXMLController-->
+		
+		<!--ExportController-->
+		
+		<!--OrdersController-->
+		
+		<!--EmplacementController-->
+			<Link>Emplacement/addEmplacement</Link>
+			<Link>Emplacement/saveEmplacement</Link>
+			<Link>Emplacement/deleteEmplacement</Link>
+			
+		<!--MobController-->
+			
+		<!--UserController-->
+			
+		<!--AjoindreController-->
+				
+		</Links>
+	</Item>
+</Access>

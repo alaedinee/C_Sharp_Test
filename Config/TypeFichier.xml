@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+  <TypeFichier>
+    <Value>Type 1</Value>
+    <TypeValue>Type 1</TypeValue>
+  </TypeFichier>
+  
+  <TypeFichier>
+    <Value>Type 2</Value>
+    <TypeValue>Type 2</TypeValue>
+  </TypeFichier>
+  
+  <TypeFichier>
+    <Value>Type 3</Value>
+    <TypeValue>Type 3</TypeValue>
+  </TypeFichier>
+  
+  <TypeFichier>
+    <Value>Autres</Value>
+    <TypeValue>Autres</TypeValue>
+  </TypeFichier>
+
+</root>

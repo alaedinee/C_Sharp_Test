@@ -1,0 +1,112 @@
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+<table border='1'><tr><td>20/11/2017 14:26:15</td><td><h2>Omniyat.Models.Query.executeProc</h2><br />System.Data.SqlClient.SqlException (0x80131904): Une erreur liée au réseau ou spécifique <br /> l'instance s'est produite lors de l'établissement d'une connexion <br /> SQL Server. Le serveur est introuvable ou n'est pas accessible. Vérifiez que le nom de l'instance est correct et que SQL Server est configuré pour autoriser les connexions distantes. (provider: Named Pipes Provider, error: 40 - Impossible d'ouvrir une connexion <br /> SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): Le chemin réseau n’a pas été trouvé
+   <br /> System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   <br /> System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   <br /> System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   <br /> System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   <br /> System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   <br /> System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   <br /> System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   <br /> System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   <br /> System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   <br /> System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   <br /> System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   <br /> System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   <br /> System.Data.SqlClient.SqlConnection.Open()
+   <br /> System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   <br /> System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   <br /> System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   <br /> System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   <br /> Omniyat.Models.Query.executeProc(String name, String parameters, Boolean open, Char spliter, Char spliter2) dans C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO\TAMMARO WEB\Models\Objects\Query.cs:ligne 100
+ClientConnectionId :00000000-0000-0000-0000-000000000000
+Error Number :53,State :0,Class :20<br /><p style='background-color:yellow'>OT_GetPrestAStatuer => OTID@int@212652</p></td></tr></table><br />
+<table border='1'><tr><td>20/11/2017 14:26:35</td><td><h2>Omniyat.Models.Query.executeProc</h2><br />System.Data.SqlClient.SqlException (0x80131904): Une erreur liée au réseau ou spécifique <br /> l'instance s'est produite lors de l'établissement d'une connexion <br /> SQL Server. Le serveur est introuvable ou n'est pas accessible. Vérifiez que le nom de l'instance est correct et que SQL Server est configuré pour autoriser les connexions distantes. (provider: Named Pipes Provider, error: 40 - Impossible d'ouvrir une connexion <br /> SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): Le chemin réseau n’a pas été trouvé
+   <br /> System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   <br /> System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   <br /> System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   <br /> System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   <br /> System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   <br /> System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   <br /> System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   <br /> System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   <br /> System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   <br /> System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   <br /> System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   <br /> System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   <br /> System.Data.SqlClient.SqlConnection.Open()
+   <br /> System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   <br /> System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   <br /> System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   <br /> System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   <br /> Omniyat.Models.Query.executeProc(String name, String parameters, Boolean open, Char spliter, Char spliter2) dans C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO\TAMMARO WEB\Models\Objects\Query.cs:ligne 100
+ClientConnectionId :00000000-0000-0000-0000-000000000000
+Error Number :53,State :0,Class :20<br /><p style='background-color:yellow'>OT_GetPrestAStatuer => OTID@int@212652</p></td></tr></table><br />
+<table border='1'><tr><td>20/11/2017 14:26:35</td><td><h2>Omniyat.Models.Query.executeProc</h2><br />System.Data.SqlClient.SqlException (0x80131904): Une erreur liée au réseau ou spécifique <br /> l'instance s'est produite lors de l'établissement d'une connexion <br /> SQL Server. Le serveur est introuvable ou n'est pas accessible. Vérifiez que le nom de l'instance est correct et que SQL Server est configuré pour autoriser les connexions distantes. (provider: Named Pipes Provider, error: 40 - Impossible d'ouvrir une connexion <br /> SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): Le chemin réseau n’a pas été trouvé
+   <br /> System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   <br /> System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   <br /> System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   <br /> System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   <br /> System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   <br /> System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   <br /> System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   <br /> System.Data.SqlClient.SqlConnection.Open()
+   <br /> System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   <br /> System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   <br /> System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   <br /> System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   <br /> Omniyat.Models.Query.executeProc(String name, String parameters, Boolean open, Char spliter, Char spliter2) dans C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO\TAMMARO WEB\Models\Objects\Query.cs:ligne 100
+ClientConnectionId :00000000-0000-0000-0000-000000000000
+Error Number :53,State :0,Class :20<br /><p style='background-color:yellow'>OT_GetPrestAStatuer => OTID@int@212652</p></td></tr></table><br />
+<table border='1'><tr><td>20/11/2017 14:27:36</td><td><h2>Omniyat.Models.Query.executeProc</h2><br />System.Data.SqlClient.SqlException (0x80131904): Une erreur liée au réseau ou spécifique <br /> l'instance s'est produite lors de l'établissement d'une connexion <br /> SQL Server. Le serveur est introuvable ou n'est pas accessible. Vérifiez que le nom de l'instance est correct et que SQL Server est configuré pour autoriser les connexions distantes. (provider: Named Pipes Provider, error: 40 - Impossible d'ouvrir une connexion <br /> SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): Le chemin réseau n’a pas été trouvé
+   <br /> System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   <br /> System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   <br /> System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   <br /> System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   <br /> System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   <br /> System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   <br /> System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   <br /> System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   <br /> System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   <br /> System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   <br /> System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   <br /> System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   <br /> System.Data.SqlClient.SqlConnection.Open()
+   <br /> System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   <br /> System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   <br /> System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   <br /> System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   <br /> Omniyat.Models.Query.executeProc(String name, String parameters, Boolean open, Char spliter, Char spliter2) dans C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO\TAMMARO WEB\Models\Objects\Query.cs:ligne 100
+ClientConnectionId :00000000-0000-0000-0000-000000000000
+Error Number :53,State :0,Class :20<br /><p style='background-color:yellow'>AgenceGetAgence => id@int@1</p></td></tr></table><br />
+<table border='1'><tr><td>20/11/2017 14:27:36</td><td><h2>Omniyat.Models.Query.executeProc</h2><br />System.Data.SqlClient.SqlException (0x80131904): Une erreur liée au réseau ou spécifique <br /> l'instance s'est produite lors de l'établissement d'une connexion <br /> SQL Server. Le serveur est introuvable ou n'est pas accessible. Vérifiez que le nom de l'instance est correct et que SQL Server est configuré pour autoriser les connexions distantes. (provider: Named Pipes Provider, error: 40 - Impossible d'ouvrir une connexion <br /> SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): Le chemin réseau n’a pas été trouvé
+   <br /> System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   <br /> System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   <br /> System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   <br /> System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   <br /> System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   <br /> System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   <br /> System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   <br /> System.Data.SqlClient.SqlConnection.Open()
+   <br /> System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   <br /> System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   <br /> System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   <br /> System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   <br /> Omniyat.Models.Query.executeProc(String name, String parameters, Boolean open, Char spliter, Char spliter2) dans C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO\TAMMARO WEB\Models\Objects\Query.cs:ligne 100
+ClientConnectionId :00000000-0000-0000-0000-000000000000
+Error Number :53,State :0,Class :20<br /><p style='background-color:yellow'>OT_GetPrestAStatuer => OTID@int@212652</p></td></tr></table><br />
+<table border='1'><tr><td>20/11/2017 14:27:36</td><td><h2>Omniyat.Models.Query.executeProc</h2><br />System.Data.SqlClient.SqlException (0x80131904): Une erreur liée au réseau ou spécifique <br /> l'instance s'est produite lors de l'établissement d'une connexion <br /> SQL Server. Le serveur est introuvable ou n'est pas accessible. Vérifiez que le nom de l'instance est correct et que SQL Server est configuré pour autoriser les connexions distantes. (provider: Named Pipes Provider, error: 40 - Impossible d'ouvrir une connexion <br /> SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): Le chemin réseau n’a pas été trouvé
+   <br /> System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   <br /> System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   <br /> System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   <br /> System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   <br /> System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   <br /> System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   <br /> System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   <br /> System.Data.SqlClient.SqlConnection.Open()
+   <br /> System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   <br /> System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   <br /> System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   <br /> System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   <br /> Omniyat.Models.Query.executeProc(String name, String parameters, Boolean open, Char spliter, Char spliter2) dans C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO\TAMMARO WEB\Models\Objects\Query.cs:ligne 100
+ClientConnectionId :00000000-0000-0000-0000-000000000000
+Error Number :53,State :0,Class :20<br /><p style='background-color:yellow'>AgenceGetAgence => id@int@1</p></td></tr></table><br />

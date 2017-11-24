@@ -1,0 +1,124 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage"  %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html  xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ 
+       
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ 
+
+<script type="text/javascript">
+    function SERVER_HTTP_HOST() {
+        var url = window.location.href;
+        url = url.replace("http://", "");
+
+        var urlExplode = url.split("/");
+        var serverName = urlExplode[0];
+        var folderName = urlExplode[1];
+        var result = 'http://' + serverName + "/" + folderName;
+        return result;
+    } 
+
+</script>
+
+
+<%
+
+    
+Response.Write(@"<script language='javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js'></script>");
+
+Response.Write(@"<script language='javascript' src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js'></script>");
+
+Response.Write(@"<link href='"+Globale_Varriables.VAR.get_URL_HREF()+"/Content/jquery.autocomplete.css' rel='stylesheet' type='text/css' />");
+Response.Write(@"<link href='" + Globale_Varriables.VAR.get_URL_HREF() + "/Content/Site.css' rel='stylesheet' type='text/css' />");
+Response.Write(@"<link href='" + Globale_Varriables.VAR.get_URL_HREF() + "/Content/CSS_Calendare.css' rel='stylesheet' type='text/css' />");
+Response.Write(@"<link href='" + Globale_Varriables.VAR.get_URL_HREF() + "/Content/jquery-ui-1.7.2.custom.css' rel='stylesheet' type='text/css' />");
+Response.Write(@"<link href='" + Globale_Varriables.VAR.get_URL_HREF() + "/Content/datatables/media/css/demo_table.css'  rel='stylesheet' type='text/css' />");
+Response.Write(@"<script language='javascript' src='" + Globale_Varriables.VAR.get_URL_HREF() + "/Content/ckeditor/ckeditor.js'></script>");
+Response.Write(@"<script language='javascript' src='" + Globale_Varriables.VAR.get_URL_HREF() + "/Content/ckeditor/adapters/jquery.js'></script>");
+Response.Write(@"<script language='javascript' src='" + Globale_Varriables.VAR.get_URL_HREF() + "/Content/jquery.autocomplete.js'></script>");
+Response.Write(@"<script language='javascript' src='" + Globale_Varriables.VAR.get_URL_HREF() + "/Content/C_Calendare.js' ></script>");
+
+Response.Write(@"<script language='javascript' src='" + Globale_Varriables.VAR.get_URL_HREF() + "/Content/datatables/media/js/jquery.dataTables.js'></script>");
+
+
+    
+     %>
+
+
+
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title><asp:ContentPlaceHolder ID="TitleContent" runat="server" />
+</title>
+
+
+</head>
+
+<body>
+<%
+    //Response.Write("User : " + Session["userID"].ToString());
+%>
+    <div class="page">
+
+        <div id="header">
+            
+            <div id="title">
+                <%-- <img class="immage-fill" src="../Images/TRICOLISLOGO.png"  />  --%>
+                <table id="tabTitle" ></table>
+            </div>
+
+              <div id="bannier">
+               <%-- <h1>TRC-Communications</h1>--%>
+                <table id="tabBannier" ></table> 
+           <%--      <% Response.Write("<img class=\"immage-fill\" src=\"../Images/TOPIMAGE.jpg\"/>");  %>--%>
+               </div>
+           <%-- <div id="logindisplay">
+                <% Html.RenderPartial("LogOnUserControl"); %>
+            </div>--%> 
+            
+            <div id="menucontainer">
+            
+                <ul id="menu">              
+                    <li><%: Html.ActionLink("Order de transport", "listeOrdreTransport", "OT")%></li>
+                    <%--<li><%:Html.ActionLink("Ajouter OT","Index","Ajout") %></li>--%>
+                    <li><%:Html.ActionLink("Consulter OT","AfficherTout","Ajout") %></li>
+                    <li><%: Html.ActionLink("Rendez vous", "IndexRdv", "RDV")%></li>
+                    <!-- <li><%: Html.ActionLink("Ordre non avisé", "Index", "OT")%></li>-->
+                    <li><%: Html.ActionLink("Liste Dormants", "Liste", "Dormants")%></li>
+                    <li><%: Html.ActionLink("Retards", "ListeRetard", "RDV")%></li>
+                    <li><%: Html.ActionLink("Liste Chargement", "Liste", "Chargement")%></li>
+                    <li><%: Html.ActionLink("Liste des expéditions", "Liste", "Expedition")%></li>					
+                    <li><%: Html.ActionLink("Déconnexion", "LogOut", "User")%></li>
+                </ul>
+            
+            </div>
+           
+        </div>
+
+        <div id="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+       
+        </div>
+
+        <script type="text/javascript">
+            function setKAlive() {
+                var jqxhr = $.ajax(SERVER_HTTP_HOST().replace("OT", "") + "User/KAlive")
+                    .done(function () { });
+                        setTimeout("setKAlive()", 600000); 
+            }
+
+            setKAlive();
+        </script>
+
+       <%-- <div id="footer">
+        </div>--%>
+    </div>
+</body>
+</html>

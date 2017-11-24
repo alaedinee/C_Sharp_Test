@@ -1,0 +1,127 @@
+.menu
+   {
+	    border:none;
+	    border:0px;
+	    margin:0px;
+	    padding:0px;
+	    font-family:verdana,geneva,arial,helvetica,sans-serif;
+	    font-size:14px;
+	    font-weight:bold;
+	    color:8e8e8e;
+	}
+	
+.menu ul
+    {
+	    background:url("../images/menu-bg.gif") top left repeat-x;
+	    height:43px;
+	    list-style:none;
+	    margin:0;
+	    padding:0;
+	    border-radius: 4px 4px 4px 4px;
+	}
+	
+	.menu li
+	    {
+		    float:left;
+	    }
+	    	
+	.menu li a
+	    {
+		    color:#000;
+		    display:block;
+		    font-weight:bold;
+		    line-height:43px;
+		    padding:0px 25px;
+		    text-align:center;
+		    text-decoration:none;
+		}
+		
+		.menu li a:hover
+		    {
+			    color:#0B0101;
+			    text-decoration:none; 
+			   /* cursor:pointer;
+			    background: #FFF url("../images/current-bg.gif") top left repeat-x; 
+		        padding: 5px 15px 0; */
+			}
+			
+		.menu li a:active
+		    {
+		        color: #FFF; 
+			    background: #FFF url("../images/current-bg.gif") top left repeat-x; 
+			    /*padding: 5px 15px 0;*/
+	        }
+	        
+	   .menu li a:focus
+		    {
+		        color: #FFF; 
+			    background: #FFF url("../images/current-bg.gif") top left repeat-x; 
+			    /*padding: 5px 15px 0; */ 
+	        }
+	   .menu li a:visited 
+		    {
+		        color: #FFF; 
+			    background: #FFF url("../images/current-bg.gif") top left repeat-x; 
+			    /*padding: 5px 15px 0; */ 
+	        }
+	.menu li ul
+	    {
+		    background:#e0e0e0;
+		    border-left:2px solid #006400;
+		    border-right:2px solid #006400;
+		    border-bottom:2px solid #006400;
+		    display:none;
+		    height:auto;
+		    filter:alpha(opacity=95);
+		    opacity:0.95;
+		    position:absolute;
+		    width:16%;
+		    z-index:200;
+		    /*top:1em;
+		/*left:0;*/
+		}
+		
+	.menu li:hover ul
+	    {
+		    display:block;
+		}
+		
+	.menu li li 
+	    {
+		    display:block;
+		    float:none;
+		    width:100%;
+		}
+		
+	.menu li ul a
+	    {
+		    display:block;
+		    font-size:12px;
+		    font-style:normal;
+		    text-align:left;
+		}
+		
+		.menu li ul a:hover
+		    {
+			    /*background:#52463B;*/
+			    background: #FFF url("../images/current-bg.gif") top left repeat-x; 
+			    color:#fff;
+			    opacity:1.0;
+			    filter:alpha(opacity=100);
+			    /*border-radius: 4px 4px 4px 4px;*/
+			    z-index:200;
+			    cursor:pointer;
+			    box-shadow: 1px 0 0 0 #000000;
+			}
+			
+	.menu p
+	    {
+		    clear:left;
+		}	
+		
+	.menu li a.current_menu
+	    {
+		    background:url("../images/current-bg.gif") top left repeat-x;
+		    color: #FFF; 
+		}
+		

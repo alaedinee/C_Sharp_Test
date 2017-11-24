@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Configs>
+	<Item>
+		<Name>SERVER_URL_HREF</Name>
+		<Value>http://localhost:57978</Value>
+	</Item>
+	
+	<Item>
+		<Name>Printer_Ticket_IP</Name>
+		<Value>192.168.201.75</Value>
+	</Item>
+	
+	<Item>
+		<Name>URLConsult</Name>
+		<Value>http://localhost/dl/Tammaro/Uploads/</Value>
+	</Item>	
+	
+	<Item>
+		<Name>PathPreuves</Name>
+		<Value>\\WIN-F9E4MKD92FP\Sources\preuves</Value>
+	</Item>
+
+	<Item>
+		<Name>PATH_STOCKAGE</Name>
+		<Value>C:\DLFiles\Tammaro\Uploads\</Value>
+	</Item>
+	
+	<Item>
+		<Name>PATH_CONSULTATION</Name>
+		<Value>http://localhost/dl/Tammaro/Uploads/</Value>
+	</Item>
+
+</Configs>
