@@ -1,0 +1,190 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage"  %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html  xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<script type="text/javascript">
+    function SERVER_HTTP_HOST() {
+        return '<%: Globale_Varriables.VAR.get_URL_HREF()  %>';
+    }
+</script>
+
+     
+
+<%  
+    Response.Write(@"<script language='javascript' src='" + Globale_Varriables.VAR.get_URL_HREF() + "/Content/jquery-1.11.2.js'></script>");
+    //Response.Write(@"<script language='javascript' src='" + Globale_Varriables.VAR.get_URL_HREF() + "/Content/jquery-1.11.2.min.js'></script>");
+    Response.Write(@"<script language='javascript' src='" + Globale_Varriables.VAR.get_URL_HREF() + "/Content/jquery-ui.min.js'></script>");
+    
+    Response.Write(@"<link href='" + Globale_Varriables.VAR.get_URL_HREF() + "/Content/jquery.autocomplete.css' rel='stylesheet' type='text/css' />");
+    Response.Write(@"<link href='" + Globale_Varriables.VAR.get_URL_HREF() + "/Content/Site.css' rel='stylesheet' type='text/css' />");
+    Response.Write(@"<link href='" + Globale_Varriables.VAR.get_URL_HREF() + "/Content/CSS_Calendare.css' rel='stylesheet' type='text/css' />");
+    //Response.Write(@"<link href='" + Globale_Varriables.VAR.get_URL_HREF() + "/Content/jquery-ui-1.7.2.custom.css' rel='stylesheet' type='text/css' />");
+
+    Response.Write(@"<link href='" + Globale_Varriables.VAR.get_URL_HREF() + "/Content/jquery-ui.css' rel='stylesheet' type='text/css' />");
+    Response.Write(@"<link href='" + Globale_Varriables.VAR.get_URL_HREF() + "/Content/jquery-ui.min.css' rel='stylesheet' type='text/css' />");
+    Response.Write(@"<link href='" + Globale_Varriables.VAR.get_URL_HREF() + "/Content/jquery-ui.structure.min.css' rel='stylesheet' type='text/css' />");
+
+    //Response.Write(@"<script language='javascript' src='" + Globale_Varriables.VAR.get_URL_HREF() + "/Content/ckeditor/ckeditor.js'></script>");
+    //Response.Write(@"<script language='javascript' src='" + Globale_Varriables.VAR.get_URL_HREF() + "/Content/ckeditor/adapters/jquery.js'></script>");
+    Response.Write(@"<script language='javascript' src='" + Globale_Varriables.VAR.get_URL_HREF() + "/Content/jquery.autocomplete.js'></script>");
+    Response.Write(@"<script language='javascript' src='" + Globale_Varriables.VAR.get_URL_HREF() + "/Content/C_Calendare.js' ></script>");
+    
+    //Response.Write(@"<script language='javascript' src='" + Globale_Varriables.VAR.get_URL_HREF() + "/Content/datatables/media/js/jquery.dataTables.js'></script>");
+    Response.Write(@"<link href='" + Globale_Varriables.VAR.get_URL_HREF() + "/Content/datatables/media/css/demo_table.css'  rel='stylesheet' type='text/css' />");
+    //Response.Write(@"<link rel=""stylesheet"" type=""text/css"" href=""https://cdn.datatables.net/t/dt/dt-1.10.11/datatables.min.css""/>");
+    Response.Write(@"<script type=""text/javascript"" src=""https://cdn.datatables.net/t/dt/dt-1.10.11/datatables.min.js""></script>");
+    
+    Response.Write(@"<link href='" + Globale_Varriables.VAR.get_URL_HREF() + "/Content/Tmenu.css'  rel='stylesheet' type='text/css' />");
+    Response.Write(@"<link href='" + Globale_Varriables.VAR.get_URL_HREF() + "/Content/customSite.css'  rel='stylesheet' type='text/css' />");
+     
+%>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title><asp:ContentPlaceHolder ID="TitleContent" runat="server" />
+</title>
+
+ <style>
+    body
+    {
+        margin:0px;
+        padding:0px;
+    }
+ </style>
+
+</head>
+
+<body>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $.fn.SERVER_HTTP_HOST = function () {
+            return '<%: Globale_Varriables.VAR.get_URL_HREF()  %>';
+        };
+    });
+
+
+</script>
+
+    <div class="page">
+
+        <div id="header">
+            
+           <img src="<%: Globale_Varriables.VAR.get_URL_HREF()  %>/Images/header_tr.png" border="0" width='1214' style="margin:auto;" alt="logo"/>
+   
+           <div style="text-align:left">
+                <span id="current-user"> Bienvenue :  <b><%: System.Web.HttpContext.Current.Session["login"].ToString() %></b> </span>
+                <span id="current-agence"> Dépot Actuel :  <b><%: TRC_GS_COMMUNICATION.Controllers.AgenceController.getAgenceName(Session["agenceID"].ToString())%></b> </span>
+           </div>
+
+         
+         
+           <div style="visibility:hidden">
+            
+               <span id = "spanLogin"><%: System.Web.HttpContext.Current.Session["login"].ToString() %></span>
+               <span id = "spanID"><%: System.Web.HttpContext.Current.Session["userID"].ToString()%></span>
+               <%--<span id = "spanRecepLog"><%: Session["loginReception"].ToString()%></span>--%>
+                      
+           </div>
+
+           <%--<div style="text-align:left"><input type="button" id="genRec" attrVal="Begin" value="Générer récépetion" /></div>--%>
+           
+        
+
+
+
+            <div id="menucontainer">
+                
+                <%--<nav>
+
+	                <ul>
+		                
+				        <li><a href="<%: Globale_Varriables.VAR.get_URL_HREF()  %>/Orders/getLstOT" action="1"  class="spMenu">Liste des dossiers</a></li>
+
+                        <li><a href="<%: Globale_Varriables.VAR.get_URL_HREF()  %>/Orders/getLstOTcloture" action="1"  class="spMenu">Dossier cloturé</a></li>
+
+                        <li><a href="<%: Globale_Varriables.VAR.get_URL_HREF()  %>/Magasin/ListeMagasin" action="2"  class="spMenu">Magasin</a></li>	
+
+				        <li><a href="<%: Globale_Varriables.VAR.get_URL_HREF()  %>/Client/listeClient" action="3" class="spMenu">Adresses</a></li>
+
+                        <li><a href="<%: Globale_Varriables.VAR.get_URL_HREF()  %>/Client/listeFournisseur" action="3" class="spMenu">Fournisseurs</a></li>
+
+                        <li><a href="<%: Globale_Varriables.VAR.get_URL_HREF()  %>/Emplacement/getEmplacements" action="4" class="spMenu">Emplacement</a></li>
+
+                        <li><a href="<%: Globale_Varriables.VAR.get_URL_HREF()  %>/OT/receptionForm" action="5" class="spMenu">Récéption</a></li>
+
+                        <li><a href="#" class="spMenu">Liste</a>
+			                <ul>
+				                <li><a href="<%: Globale_Varriables.VAR.get_URL_HREF()  %>/Orders/getLstOTRDV/?mode=RDV&title=Rdv à prendre" class="spMenu">Rdv à prendre </a></li>
+				                <li><a href="<%: Globale_Varriables.VAR.get_URL_HREF()  %>/Orders/getLstOTRDV/?mode=RET&title=Retour" class="spMenu">Retour</a></li>
+                                <li><a href="<%: Globale_Varriables.VAR.get_URL_HREF()  %>/Orders/getLstOTRDV/?mode=RST&title=Restitution" class="spMenu">Restitution</a></li>
+			                </ul>
+		                </li>
+
+                        <li><a href="<%: Globale_Varriables.VAR.get_URL_HREF()  %>/User/LogOut" class="spMenu">Déconnexion</a></li>
+	
+	                </ul>
+                </nav>--%>
+
+                <nav>
+
+	                <ul>
+		                <% 
+                            var menu = Globale_Varriables.VAR.acl.getMenu(System.Web.HttpContext.Current.Session["role"].ToString());
+                            if(menu != null)
+                                foreach (var item in menu)
+                                {
+
+                                    string link = "<li><a href='" +( item.link != "#" ? Globale_Varriables.VAR.get_URL_HREF() : "") + item.link + "' class='spMenu'>" + item.value + "</a>{0}</li>";
+                                    string slinks = "";
+                                    if (item.Items.Count > 0)
+                                    {
+                                        slinks += "<ul>";
+                                        foreach (var sitem in item.Items)
+                                        {
+                                            slinks += "<li><a href='" + Globale_Varriables.VAR.get_URL_HREF() + sitem.link + "' class='spMenu'>" + sitem.value + "</a></li>";
+                                        }
+                                        slinks += "</ul>";
+                                    }
+                                    link = string.Format(link, slinks);
+                                    Response.Write(link);
+                                }
+                      %>
+				        
+
+                        
+	                    <li><a href="<%: Globale_Varriables.VAR.get_URL_HREF()  %>/User/LogOut" class="spMenu">Déconnexion</a></li>
+	                </ul>
+                </nav>
+
+                   
+            </div>           
+        </div>
+
+        <div id="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+       
+        </div>
+
+        <script type="text/javascript">
+
+
+            function setKAlive() {
+                var jqxhr = $.ajax(SERVER_HTTP_HOST().replace("OT", "") + "/User/KAlive")
+                    .done(function () { });
+                        setTimeout("setKAlive()", 600000); 
+            }
+
+            setKAlive();
+
+
+        </script>
+
+    </div>
+
+    <div style="position:absolute;width:100%;height:1100px;display:none;text-align:center; vertical-align:middle; z-index:100000" id="dv_loading_detail"><img style="margin-top:20%;" width="100" src='<%: Globale_Varriables.VAR.get_URL_HREF()  %>/Images/loading.gif' /><br /><h3 style="color:Black;">Chargement ...</h3></div>
+</body>
+</html>

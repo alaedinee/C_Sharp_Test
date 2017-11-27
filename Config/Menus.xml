@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Menus>
+	<Menu role="Collaborateur">
+		<item><link>#</link>								<value>Dossier</value>
+			<sitem>
+				<item><link>/Orders/getLstOT1</link>					<value>Liste des dossiers</value></item>
+				<item><link>/Orders/getLstOTcloture</link>				<value>Dossier cloturé</value></item>			
+				<item><link>/Orders/getLstOT1/?show=groupe</link>					<value>Dossier groupe</value></item>
+				<item><link>/OT/SelectStatuerOt</link>					<value>Statuer</value></item> <!--ajouter par karime | role : ajout func statuer -->
+			</sitem>
+		</item>
+		<item><link>#</link>								<value>Agence</value>
+			<sitem>
+				<item><link>/Agence/Index</link>			<value>Liste Agences</value></item>
+				<item><link>/Agence/NPAgence</link>			<value>NP Agence</value></item>						
+			</sitem>
+		</item>
+		<item><link>/Magasin/ListeMagasin</link>			<value>Magasin</value></item>
+		<item><link>/Client/listeClient</link>				<value>Adresses</value></item>
+		<item><link>/Client/listeFournisseur</link>			<value>Fournisseurs</value></item>
+		<item><link>/Emplacement/getEmplacements</link>		<value>Emplacement</value></item>
+		<item><link>/OT/receptionForm</link>				<value>Récéption</value></item>
+		<item><link>/PlanningPlug/index</link>					<value>Planning</value></item>
+		<item><link>#</link>								<value>Liste</value>
+			<sitem>
+				<item><link>/Orders/getLstOTRDV/?mode=RDV&amp;title=Rdv à prendre</link>		<value>Rdv à prendre</value></item>
+				<item><link>/Orders/getLstOTRDV/?mode=RET&amp;title=Retour</link>				<value>Retour</value></item>
+				<item><link>/Orders/getLstOTRDV/?mode=RST&amp;title=Restitution</link>			<value>Restitution</value></item>			
+			</sitem>
+		</item>
+	</Menu>
+	<Menu role="CollaborateurMDM">
+		<item><link>#</link>								<value>Dossier</value>
+			<sitem>
+				<item><link>/Orders/getLstOT1</link>					<value>Liste des dossiers</value></item>
+				<item><link>/Orders/getLstOTcloture</link>				<value>Dossier cloturé</value></item>		
+				<item><link>/Orders/getLstOT1/?show=groupe</link>					<value>Dossier groupe</value></item>			
+			</sitem>
+		</item>
+		<item><link>/OT/receptionForm</link>				<value>Récéption</value></item>
+		<item><link>#</link>								<value>Liste</value>
+			<sitem>
+				<item><link>/Orders/getLstOTRDV/?mode=RDV&amp;title=Rdv à prendre</link>		<value>Rdv à prendre</value></item>
+				<item><link>/Orders/getLstOTRDV/?mode=RET&amp;title=Retour</link>				<value>Retour</value></item>
+				<item><link>/Orders/getLstOTRDV/?mode=RST&amp;title=Restitution</link>			<value>Restitution</value></item>			
+			</sitem>
+		</item>
+	</Menu>
+	<Menu role="CollaborateurHABITAT">
+		<item><link>#</link>								<value>Dossier</value>
+			<sitem>
+				<item><link>/Orders/getLstOT1</link>					<value>Liste des dossiers</value></item>
+				<item><link>/Orders/getLstOTcloture</link>				<value>Dossier cloturé</value></item>		
+				<item><link>/Orders/getLstOT1/?show=groupe</link>					<value>Dossier groupe</value></item>			
+			</sitem>
+		</item>
+		<item><link>/OT/receptionForm</link>				<value>Récéption</value></item>
+		<item><link>#</link>								<value>Liste</value>
+			<sitem>
+				<item><link>/Orders/getLstOTRDV/?mode=RDV&amp;title=Rdv à prendre</link>		<value>Rdv à prendre</value></item>
+				<item><link>/Orders/getLstOTRDV/?mode=RET&amp;title=Retour</link>				<value>Retour</value></item>
+				<item><link>/Orders/getLstOTRDV/?mode=RST&amp;title=Restitution</link>			<value>Restitution</value></item>			
+			</sitem>
+		</item>
+	</Menu>
+	
+</Menus>

@@ -1,0 +1,202 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage"  %>
+<!DOCTYPE html>
+<html>
+<head>
+    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+
+<%  
+    Response.Write(@"<link href='" + Globale_Varriables.VAR.get_URL_HREF() + "/Content/Site1.css' rel='stylesheet' type='text/css' />");
+    Response.Write(@"<link href='" + Globale_Varriables.VAR.get_URL_HREF() + "/Content/Tmenu.css'  rel='stylesheet' type='text/css' />");
+    Response.Write(@"<link href='" + Globale_Varriables.VAR.get_URL_HREF() + "/Content/customSite.css'  rel='stylesheet' type='text/css' />");
+     
+%>
+     
+
+
+     <link href="../Public/css/bootstrap.min.css" rel="stylesheet" />
+     
+     <link href="../Public/Css/jquery-ui.min.css" rel="stylesheet" />   
+     <script src="../Public/Js/jquery.min.js"></script>    
+     <script src="../Public/Js/jquery.ui.widget.js"></script>    
+
+    <link href="../Public/css/bootstrap-theme.min.css" rel="stylesheet" />            
+    <link href="../Public/Css/font-awesome.min.css" rel="stylesheet" />   
+    
+    
+
+    <!--
+    <script src="~/Public/Js/jquery.autocomplete.js"></script>
+    <script src='@url/Public/Js/jquery_1.7.2.min.js'></script>
+    <link href='@url/Public/Css/Form.css' rel='stylesheet' type='text/css' />
+    -->
+
+
+
+    <!--
+    <link href="../Public/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Public/css/bootstrap-theme.min.css" rel="stylesheet" />  
+    <link href="../Public/Css/jquery-ui.min.css" rel="stylesheet" />    
+    <link href="../Public/Css/Style.css" rel="stylesheet" />
+    <link href="../Public/Css/font-awesome.min.css" rel="stylesheet" />
+
+    <script src="../Public/Js/jquery.min.js"></script>
+    <script src="../Public/Js/jquery.ui.widget.js"></script>
+    <script src='../Public/js/bootstrap.min.js' type='text/javascript'></script>
+    -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <style>
+        body {
+            padding: 10px 20px;
+        }
+
+        .cursor {
+            cursor: pointer;
+        }
+
+        .marger {
+            margin: 0px 10px;
+        }
+
+        table.table tr td {
+            font-size: 13px;
+        }
+
+        .errorF
+        {
+            background-color:red;
+            color:#fff;
+            border:1px solid green;
+        }
+        
+    </style>
+
+    <link href="../Public/Css/bootstrap-datetimepicker.css" rel="stylesheet" />
+    <script src="../Public/Js/moment-with-locales.js"></script>
+    <script src="../Public/Js/bootstrap-datetimepicker.js"></script>
+ 
+ <script type="text/javascript">
+     function SERVER_HTTP_HOST() {
+         return '<%: Globale_Varriables.VAR.get_URL_HREF()  %>';
+     }
+</script>
+
+</head>
+
+<body>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $.fn.SERVER_HTTP_HOST = function () {
+                return '<%: Globale_Varriables.VAR.get_URL_HREF()  %>/';
+            };
+
+            $.fn.DL_HTTP_HOST = function () {
+                return '<%: Globale_Varriables.VAR.get_URL_HREF()  %>/';
+            };
+
+        });
+    </script>
+
+     <div  class="page">
+
+            <div id="header">
+            
+           <img src="<%: Globale_Varriables.VAR.get_URL_HREF()  %>/Images/header_tr.png" border="0" width='1214' style="margin:auto;" alt="logo"/>
+   
+           <div style="text-align:left">Bienvenue :  <b><%: System.Web.HttpContext.Current.Session["login"].ToString() %></b></div>
+
+         
+         
+           <div style="visibility:hidden">
+            
+               <span id = "spanLogin"><%: System.Web.HttpContext.Current.Session["login"].ToString() %></span>
+               <span id = "spanID"><%: System.Web.HttpContext.Current.Session["userID"].ToString()%></span>
+               <%--<span id = "spanRecepLog"><%: Session["loginReception"].ToString()%></span>--%>
+                      
+           </div>
+
+           <%--<div style="text-align:left"><input type="button" id="genRec" attrVal="Begin" value="Générer récépetion" /></div>--%>
+           
+        
+
+
+
+            <div id="menucontainer">
+                
+                <%--<nav>
+
+	                <ul>
+		                
+				        <li><a href="<%: Globale_Varriables.VAR.get_URL_HREF()  %>/Orders/getLstOT" action="1"  class="spMenu">Liste des dossiers</a></li>
+
+                        <li><a href="<%: Globale_Varriables.VAR.get_URL_HREF()  %>/Orders/getLstOTcloture" action="1"  class="spMenu">Dossier cloturé</a></li>
+
+                        <li><a href="<%: Globale_Varriables.VAR.get_URL_HREF()  %>/Magasin/ListeMagasin" action="2"  class="spMenu">Magasin</a></li>	
+
+				        <li><a href="<%: Globale_Varriables.VAR.get_URL_HREF()  %>/Client/listeClient" action="3" class="spMenu">Adresses</a></li>
+
+                        <li><a href="<%: Globale_Varriables.VAR.get_URL_HREF()  %>/Client/listeFournisseur" action="3" class="spMenu">Fournisseurs</a></li>
+
+                        <li><a href="<%: Globale_Varriables.VAR.get_URL_HREF()  %>/Emplacement/getEmplacements" action="4" class="spMenu">Emplacement</a></li>
+
+                        <li><a href="<%: Globale_Varriables.VAR.get_URL_HREF()  %>/OT/receptionForm" action="5" class="spMenu">Récéption</a></li>
+
+                        <li><a href="#" class="spMenu">Liste</a>
+			                <ul>
+				                <li><a href="<%: Globale_Varriables.VAR.get_URL_HREF()  %>/Orders/getLstOTRDV/?mode=RDV&title=Rdv à prendre" class="spMenu">Rdv à prendre </a></li>
+				                <li><a href="<%: Globale_Varriables.VAR.get_URL_HREF()  %>/Orders/getLstOTRDV/?mode=RET&title=Retour" class="spMenu">Retour</a></li>
+                                <li><a href="<%: Globale_Varriables.VAR.get_URL_HREF()  %>/Orders/getLstOTRDV/?mode=RST&title=Restitution" class="spMenu">Restitution</a></li>
+			                </ul>
+		                </li>
+
+                        <li><a href="<%: Globale_Varriables.VAR.get_URL_HREF()  %>/User/LogOut" class="spMenu">Déconnexion</a></li>
+	
+	                </ul>
+                </nav>--%>
+
+                <nav>
+
+	                <ul>
+		                <% 
+                            var menu = Globale_Varriables.VAR.acl.getMenu(System.Web.HttpContext.Current.Session["role"].ToString());
+                            if(menu != null)
+                                foreach (var item in menu)
+                                {
+
+                                    string link = "<li><a href='" +( item.link != "#" ? Globale_Varriables.VAR.get_URL_HREF() : "") + item.link + "' class='spMenu'>" + item.value + "</a>{0}</li>";
+                                    string slinks = "";
+                                    if (item.Items.Count > 0)
+                                    {
+                                        slinks += "<ul>";
+                                        foreach (var sitem in item.Items)
+                                        {
+                                            slinks += "<li><a href='" + Globale_Varriables.VAR.get_URL_HREF() + sitem.link + "' class='spMenu'>" + sitem.value + "</a></li>";
+                                        }
+                                        slinks += "</ul>";
+                                    }
+                                    link = string.Format(link, slinks);
+                                    Response.Write(link);
+                                }
+                      %>
+				        
+                        <!--<li><a href='../PlanningPlug/index' class='spMenu'>Planning</a></li>-->
+                        
+	                    <li><a href="<%: Globale_Varriables.VAR.get_URL_HREF()  %>/User/LogOut" class="spMenu">Déconnexion</a></li>
+	                </ul>
+                </nav>
+
+                   
+            </div>           
+        </div>
+
+    </div>
+    <div id="main">
+         <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+    </div>   
+       
+
+    <script src='../Public/js/bootstrap.min.js' type='text/javascript'></script>
+</body>
+</html>

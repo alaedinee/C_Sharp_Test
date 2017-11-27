@@ -1,0 +1,639 @@
+﻿/*----------------------------------------------------------
+La couleur de base pour ce modèle est #5c87b2. Si vous voulez
+utiliser une autre couleur, remplacez toutes les instances de
+#5c87b2 par la nouvelle couleur.
+----------------------------------------------------------*/
+
+
+
+#controlElemt
+{
+    width:100%;
+    height:50px;
+    bottom:0px;
+}
+.trover
+{
+	background-color: #0099CC;
+}
+#causeRetard
+{
+    width:100%;
+}
+#interval
+{
+    width:250px;
+}
+#client
+{
+    width:250px;
+}
+/*
+p, ul
+{
+    margin-bottom: 20px;
+    line-height: 1.6em;
+}*/
+
+.href_link
+{
+ font-size: 1.5em;
+ 
+}
+/* cette règle applique les styles aux balises <h2> qui sont le 
+premier enfant des colonnes de table gauche et droite*/
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0;
+}
+
+/* ÉLÉMENTS DE MISE EN FORME PRINCIPAUX   
+----------------------------------------------------------*/
+
+/* vous pouvez spécifier un pourcentage supérieur ou inférieur pour la largeur de la  
+page. Ou bien, vous pouvez spécifier une largeur exacte en pixels. */
+.page
+{
+    width: 90%;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header
+{
+    position: relative;
+    margin-bottom: 0px;
+    margin-top:5px;
+
+   
+    width:100%;
+}
+
+#header h1
+{
+    
+    font-weight: bold;
+    padding: 5px 0;
+    margin: 0;
+
+    border: none;
+    line-height: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px !important;
+ 
+}
+
+#main
+{
+    
+  /*  background-color: #fff;*/   
+    margin-bottom: 30px;
+    width:100%;
+    float:left;
+    height:100%;
+    _height: 1px; /* seul IE6 applique des propriétés CSS en commençant par un trait de soulignement */
+}
+
+#footer
+{
+    background-color:#CECFD0;
+    color: #999;
+    height:5px;
+    text-align: center;
+    
+    border: 1px solid #5C87B2;
+    border-bottom: 0px solid #5C87B2;
+     
+    font-size: .9em;
+    width:100%;
+    position:fixed;
+    left:0;
+    right:0;
+    bottom:0; 
+}
+
+#footer:hover
+{
+    height:50px;
+    
+}
+
+
+.selectForce
+{
+    width:200;
+}
+
+#tableList
+{
+  border: solid 1px #e8eef4;
+  border-collapse: collapse;
+  width :100%;
+
+  background-color: #FFFFFF;
+    height: 42px;
+}
+
+#tableList tr:nth-child(odd) {
+
+background-color: #E0E2E2;
+}
+
+#tableList td 
+{
+  padding: 5px;   
+  border: solid 1px #e8eef4;
+  
+ /* background-color:White;*/
+}
+
+#tableList th
+{
+  padding: 6px 5px;
+  text-align: left;
+  color:#e8eef4; 
+  border: solid 1px #e8eef4;   
+  background-color:#5F6465;
+}
+
+/* DIVERS  
+----------------------------------------------------------*/
+.clear
+{
+    clear: both;
+}
+
+.error
+{
+    color:Red;
+}
+ #divMenuBottom
+ {
+     /* position : relative;*/
+     background-color:Black;
+      float:left;
+      height: 500px;
+      background: transparent url('../Images/header-bkg.jpg') no-repeat bottom left; 
+      margin: 0px 0px 0px 0px;
+ }
+ #menucontainer {position: relative; right:0; bottom: 0px;float:left; }
+ 
+ul#menu
+{
+    /*border: 1px #5C87B2 solid;*/
+    padding: 0;
+    position: relative;
+    margin: 0;
+    text-align: left;
+    width:100%;
+    list-style-type:none;
+}
+
+
+/*
+#menucontainer {position: relative; right:25px; bottom: 0px;float:left; }
+
+#menucontainer li {position:relative; left:0px; text-decoration:none; bottom:0px; float: left; margin:0px 0px 0px 4px; background: transparent url('../../Images/menu-left.png') no-repeat bottom left;}
+#menucontainer li a {display:block; text-decoration: none; height:28px; padding:30px 20px 0px 20px; font-size: 108%; color:#FFFFFF; background: transparent url('../../Images/menu-right.png') no-repeat bottom right;}
+#menucontainer li a:hover {color:#003300;}
+
+#menucontainer li.selected {float: left; margin:0px 0px 0px 4px; background: transparent url('../../Images/menu-left-selected.png') no-repeat bottom left;}
+#menucontainer li.selected a {display:block; height:33px; padding:25px 20px 0px 20px; font-size: 123.1%; color:#000000; background: transparent url('../../Images/menu-right-selected.png') no-repeat bottom right;}
+#menucontainer li.selected a:hover {color:#003300;}
+
+#menucontainer li.selected {}
+#menucontainer li.selected a {}
+#menucontainer li.selected a:hover {}*/
+/*
+#menu { float: left;  }
+#menu li.last { margin-right: 10px; }*/
+/*a.feed { position: relative; top: 23px; text-decoration: none; }*/
+
+/***** FIXIT *****/
+div#bannier
+{
+    display:block;
+    height:80px;
+    width:70%;
+    float:left; 
+
+    
+}
+
+div#title
+{
+    display:block;
+    float:left;
+    width:30%;
+  
+    height:80px;
+}
+/******************************************/
+#tabTitle
+{
+    width:100%;
+    height:100%;
+    background-image:url('../Images/TRICOLISLOGO.png')  ;
+
+}
+#tabBannier
+{
+    width:100%;
+    height:100%;
+    background-image:url('../Images/TOPIMAGE.jpg') ;
+
+}
+
+#divTitle
+{
+    float:left;
+    height:60px;
+    width:100%;
+}
+ #directionsPanel
+ {
+    
+     float:right;
+     width:20%; 
+     height:600px; 
+     overflow: auto;
+ }
+ 
+  #map_canvas
+ {
+    border: 1px solid black; 
+    position:absolute; 
+    width:78%; 
+    height:600px;
+    float:left;
+ }
+ 
+ 
+#logindisplay
+{
+    font-size:1.1em;
+    display:block;
+    text-align:right;
+    margin:10px;
+    color:White;
+    background-color:Green;
+}
+
+
+#logindisplay a:link
+{
+    color: white;
+    text-decoration: underline;
+}
+
+
+#logindisplay a:visited
+{
+    color: white;
+    text-decoration: underline;
+}
+
+#logindisplay a:hover
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* Styles pour les programmes d'assistance de validation
+-----------------------------------------------------------*/
+.field-validation-error
+{
+    color: #ff0000;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+.
+/* Styles pour les programmes d'assistance d'éditeur et d'affichage
+----------------------------------------------------------*/
+.display-label,
+.editor-label,
+.display-field,
+.editor-field
+{
+    margin: 0.5em 0;
+}
+
+.text-box
+{
+    width: 30em;
+}
+
+.text-box.multi-line
+{
+    height: 6.5em;
+}
+
+.tri-state
+{
+    width: 6em;
+}
+
+/****  Style pour mise en forme des images ****/
+
+.immage-fill
+{
+    height:100%;
+    width:100%;
+    
+}
+
+.immage-fix
+{
+    height:32px;
+    width:32px;
+    
+}
+
+.immage-fix-16
+{
+    height:16px;
+    width:16px;
+    
+}
+/**** Style Div personnaliser << listeOrdreTransport.aspx >>****/
+
+#divlListOT
+{
+    width:100%;
+    float:left;
+}
+
+fieldset#divListOT
+{
+    width : 84%;
+    margin-left:8%;
+}
+
+#divlListRechercheOT
+{
+    width:80%;
+    float:left;
+    margin-left:10%;
+    height:110px;
+    bottom:5px;
+
+}
+
+fieldset#divlListRechercheOT
+{
+    width : 90%;
+    margin-left:5%;
+    height:100px;
+    
+}
+
+
+#typeRecherche
+{
+    width:100%;
+}
+
+
+/**************** detailOrdreTransport.aspx ********************************/
+
+
+#tableInfo
+{
+    width:90%;
+   
+}
+tbody#tableInfo  {
+
+background-color:transparent;
+}
+
+#tableInfoPrestation
+{
+  border: solid 1px #e8eef4;
+  border-collapse: collapse;
+  width :100%;
+
+  background-color: #FFFFFF;
+    height: 42px;
+}
+
+#tableInfoPrestation tr:nth-child(odd) {
+
+background-color: #E0E2E2;
+}
+
+#tableInfoPrestation td 
+{
+  padding: 5px;   
+  border: solid 1px #e8eef4;
+  
+ /* background-color:White;*/
+}
+
+#tableInfoPrestation th
+{
+  padding: 6px 5px;
+  text-align: left;
+  color:#e8eef4; 
+  border: solid 1px #e8eef4;   
+  background-color:#5F6465;
+}
+
+
+
+#fieldRight
+{
+    float:left;
+    width:95%;
+    height: 100%;
+    
+}
+
+#fieldCenter
+{
+    float:left;
+    width:95%;
+    height: 100%;
+}
+
+#docJoint
+{
+    float:left;
+    width:95%;
+    height: 100%;
+}
+
+#fieldCommunication
+{
+  /*  width:80%;
+    float:left;
+    height:100%;
+    /*margin-left:10%;*/
+}
+
+#MainContent_map_canvas
+{
+    width:100%;
+    height:200px ;
+}
+
+#menuCommunication
+{
+    float:left;
+
+    width:100%;
+    height:40px;
+}
+
+#divInformations
+{
+
+    width:20%;
+    height:100%;
+    float:left;
+}
+
+#divDetail
+{
+float:right; 
+width:100%;
+}
+
+#divOTRight
+{
+float:right;
+width:74%; 
+}
+
+#listPrestation
+{
+float:right;    
+width:100%;
+height:100%; 
+}
+
+#divTableauPrestation
+{
+    width  : 30%;
+    height : 100%;
+    float:left;
+    
+}
+#menuLogOut
+{
+    float:right;
+    width:130px;
+    text-align:right;
+}
+#divTableauInfoOT
+{
+    width  : 45%;
+    height : 100%;
+    float:right;
+    background-color:Aqua;
+   
+}
+.imgMenu
+{
+    float:right;
+    margin:4px;
+    cursor:pointer;
+}
+
+.lienHyper
+{
+    cursor:pointer;
+}
+.erreurInputText
+{
+ 
+    border-color:Red;
+}
+
+#PopUpMAJ
+{
+    width:500px;
+}
+
+
+/******  ConfirmationRDV ***********/
+
+
+#fieldCauseConfirmationRDV
+{
+    width:38.5%;
+    margin-left:30%;
+    margin-top:20px;
+    height:70px;
+   /* border: 1px #5C87B2 solid;*/
+    text-align:left;
+    border:1px solid black;
+}
+
+#contentConfirmation
+{
+    width:40%;
+    margin-left:30%;
+    margin-top:20px;
+    height:250px;
+    border: 1px #5C87B2 solid;
+      text-align:center;
+}
+#hautContentConfirmation
+{
+    height:240px;
+    width:100%;
+    float:left;
+}
+#basContentConfirmation
+{
+    height:100px;
+    width:100%;
+    float:left;
+
+}
+#tableCheckConfirmation
+{
+    width:60%;
+    margin-left: 20%;
+    height:90px;
+    margin-top:5px;
+    
+    /*text-align:center;*/
+}
+
+.erreur
+{
+    color:Red;
+}
+
+
+.erreur-small
+{
+    color: Red;
+    font-size: 12px;
+    margin: 3px;
+}

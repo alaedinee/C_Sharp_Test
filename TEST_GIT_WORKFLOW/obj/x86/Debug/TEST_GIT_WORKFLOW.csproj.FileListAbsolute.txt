@@ -3,3 +3,5 @@ C:\Documents and Settings\OMNIYAT\Bureau\git\TEST_GIT_WORKFLOW\TEST_GIT_WORKFLOW
 C:\Documents and Settings\OMNIYAT\Bureau\git\TEST_GIT_WORKFLOW\TEST_GIT_WORKFLOW\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\OMNIYAT\Bureau\git\TEST_GIT_WORKFLOW\TEST_GIT_WORKFLOW\obj\x86\Debug\TEST_GIT_WORKFLOW.exe
 C:\Documents and Settings\OMNIYAT\Bureau\git\TEST_GIT_WORKFLOW\TEST_GIT_WORKFLOW\obj\x86\Debug\TEST_GIT_WORKFLOW.pdb
+C:\Documents and Settings\OMNIYAT\Bureau\TEST_GIT_WORKFLOW\TEST_GIT_WORKFLOW\obj\x86\Debug\TEST_GIT_WORKFLOW.exe
+C:\Documents and Settings\OMNIYAT\Bureau\TEST_GIT_WORKFLOW\TEST_GIT_WORKFLOW\obj\x86\Debug\TEST_GIT_WORKFLOW.pdb

@@ -1,0 +1,33 @@
+
+**************Views*****************
+
+--> getRStockProduits
+
+--> getLstRSTock
+
+--> getRStockMVT
+
+*************BD *******************
+
+--> 
+
+************Proc ****************
+
+
+--> PRC_getRessourecStockList
+
+--> PRC_getQteGoods
+
+
+************ Vues ****************
+
+
+--> 
+
+
+********** Autres ***************
+
+--> DLL
+
+
+101	Natel	3	TEXT	Natel	1	8		1		1	0	0	NULL	NULL

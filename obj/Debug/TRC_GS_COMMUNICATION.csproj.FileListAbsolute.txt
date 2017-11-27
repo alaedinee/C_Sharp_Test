@@ -1,0 +1,256 @@
+C:\pub\trcrv\bin\TRC_GS_COMMUNICATION.dll
+C:\pub\trcrv\bin\TRC_GS_COMMUNICATION.pdb
+C:\pub\trcrv\bin\AjaxControlToolkit.dll
+C:\pub\trcrv\bin\ExcelLibrary.dll
+C:\pub\trcrv\bin\itextsharp.dll
+C:\pub\trcrv\bin\Microsoft.Web.Mvc.dll
+C:\pub\trcrv\bin\System.ComponentModel.DataAnnotations.dll
+C:\pub\trcrv\bin\System.Web.Abstractions.dll
+C:\pub\trcrv\bin\System.Web.Mvc.dll
+C:\pub\trcrv\bin\System.Web.Routing.dll
+C:\pub\trcrv\bin\fr\System.Web.Mvc.resources.dll
+C:\pub\trcrv\obj\Debug\ResolveAssemblyReference.cache
+C:\pub\trcrv\obj\Debug\TRC_GS_COMMUNICATION.Properties.Resources.resources
+C:\pub\trcrv\obj\Debug\GenerateResource.read.1.tlog
+C:\pub\trcrv\obj\Debug\GenerateResource.write.1.tlog
+C:\pub\trcrv\obj\Debug\TRC_GS_COMMUNICATION.dll
+C:\pub\trcrv\obj\Debug\TRC_GS_COMMUNICATION.pdb
+C:\certificates\trcrv\bin\TRC_GS_COMMUNICATION.dll
+C:\certificates\trcrv\bin\TRC_GS_COMMUNICATION.pdb
+C:\certificates\trcrv\bin\AjaxControlToolkit.dll
+C:\certificates\trcrv\bin\ExcelLibrary.dll
+C:\certificates\trcrv\bin\itextsharp.dll
+C:\certificates\trcrv\bin\Microsoft.Web.Mvc.dll
+C:\certificates\trcrv\bin\System.ComponentModel.DataAnnotations.dll
+C:\certificates\trcrv\bin\System.Web.Abstractions.dll
+C:\certificates\trcrv\bin\System.Web.Mvc.dll
+C:\certificates\trcrv\bin\System.Web.Routing.dll
+C:\certificates\trcrv\bin\fr\System.Web.Mvc.resources.dll
+C:\certificates\trcrv\obj\Debug\ResolveAssemblyReference.cache
+C:\certificates\trcrv\obj\Debug\TRC_GS_COMMUNICATION.Properties.Resources.resources
+C:\certificates\trcrv\obj\Debug\GenerateResource.read.1.tlog
+C:\certificates\trcrv\obj\Debug\GenerateResource.write.1.tlog
+C:\certificates\trcrv\obj\Debug\TRC_GS_COMMUNICATION.dll
+C:\certificates\trcrv\obj\Debug\TRC_GS_COMMUNICATION.pdb
+C:\Users\OMNI-DEV\Desktop\My Files\Duperrex TRCV\bin\TRC_GS_COMMUNICATION.dll
+C:\Users\OMNI-DEV\Desktop\My Files\Duperrex TRCV\bin\TRC_GS_COMMUNICATION.pdb
+C:\Users\OMNI-DEV\Desktop\My Files\Duperrex TRCV\bin\AjaxControlToolkit.dll
+C:\Users\OMNI-DEV\Desktop\My Files\Duperrex TRCV\bin\ExcelLibrary.dll
+C:\Users\OMNI-DEV\Desktop\My Files\Duperrex TRCV\bin\itextsharp.dll
+C:\Users\OMNI-DEV\Desktop\My Files\Duperrex TRCV\bin\Microsoft.Web.Mvc.dll
+C:\Users\OMNI-DEV\Desktop\My Files\Duperrex TRCV\bin\System.ComponentModel.DataAnnotations.dll
+C:\Users\OMNI-DEV\Desktop\My Files\Duperrex TRCV\bin\System.Web.Abstractions.dll
+C:\Users\OMNI-DEV\Desktop\My Files\Duperrex TRCV\bin\System.Web.Mvc.dll
+C:\Users\OMNI-DEV\Desktop\My Files\Duperrex TRCV\bin\System.Web.Routing.dll
+C:\Users\OMNI-DEV\Desktop\My Files\Duperrex TRCV\bin\fr\System.Web.Mvc.resources.dll
+C:\Users\OMNI-DEV\Desktop\My Files\Duperrex TRCV\obj\Debug\TRC_GS_COMMUNICATION.csprojResolveAssemblyReference.cache
+C:\Users\OMNI-DEV\Desktop\My Files\Duperrex TRCV\obj\Debug\TRC_GS_COMMUNICATION.Properties.Resources.resources
+C:\Users\OMNI-DEV\Desktop\My Files\Duperrex TRCV\obj\Debug\TRC_GS_COMMUNICATION.csproj.GenerateResource.Cache
+C:\Users\OMNI-DEV\Desktop\My Files\Duperrex TRCV\obj\Debug\TRC_GS_COMMUNICATION.dll
+C:\Users\OMNI-DEV\Desktop\My Files\Duperrex TRCV\obj\Debug\TRC_GS_COMMUNICATION.pdb
+C:\Users\OMNI-DEV\Desktop\Bureau 04_11_2013\My Files\Duperrex TRCV\bin\TRC_GS_COMMUNICATION.dll
+C:\Users\OMNI-DEV\Desktop\Bureau 04_11_2013\My Files\Duperrex TRCV\bin\TRC_GS_COMMUNICATION.pdb
+C:\Users\OMNI-DEV\Desktop\Bureau 04_11_2013\My Files\Duperrex TRCV\bin\AjaxControlToolkit.dll
+C:\Users\OMNI-DEV\Desktop\Bureau 04_11_2013\My Files\Duperrex TRCV\bin\ExcelLibrary.dll
+C:\Users\OMNI-DEV\Desktop\Bureau 04_11_2013\My Files\Duperrex TRCV\bin\itextsharp.dll
+C:\Users\OMNI-DEV\Desktop\Bureau 04_11_2013\My Files\Duperrex TRCV\bin\Microsoft.Web.Mvc.dll
+C:\Users\OMNI-DEV\Desktop\Bureau 04_11_2013\My Files\Duperrex TRCV\bin\System.ComponentModel.DataAnnotations.dll
+C:\Users\OMNI-DEV\Desktop\Bureau 04_11_2013\My Files\Duperrex TRCV\bin\System.Web.Abstractions.dll
+C:\Users\OMNI-DEV\Desktop\Bureau 04_11_2013\My Files\Duperrex TRCV\bin\System.Web.Mvc.dll
+C:\Users\OMNI-DEV\Desktop\Bureau 04_11_2013\My Files\Duperrex TRCV\bin\System.Web.Routing.dll
+C:\Users\OMNI-DEV\Desktop\Bureau 04_11_2013\My Files\Duperrex TRCV\bin\fr\System.Web.Mvc.resources.dll
+C:\Users\OMNI-DEV\Desktop\Bureau 04_11_2013\My Files\Duperrex TRCV\obj\Debug\TRC_GS_COMMUNICATION.csprojResolveAssemblyReference.cache
+C:\Users\OMNI-DEV\Desktop\Bureau 04_11_2013\My Files\Duperrex TRCV\obj\Debug\TRC_GS_COMMUNICATION.Properties.Resources.resources
+C:\Users\OMNI-DEV\Desktop\Bureau 04_11_2013\My Files\Duperrex TRCV\obj\Debug\TRC_GS_COMMUNICATION.csproj.GenerateResource.Cache
+C:\Users\OMNI-DEV\Desktop\Bureau 04_11_2013\My Files\Duperrex TRCV\obj\Debug\TRC_GS_COMMUNICATION.dll
+C:\Users\OMNI-DEV\Desktop\Bureau 04_11_2013\My Files\Duperrex TRCV\obj\Debug\TRC_GS_COMMUNICATION.pdb
+C:\Users\OMNI-DEV\Desktop\Projets\Duperrex TRCV\bin\TRC_GS_COMMUNICATION.dll
+C:\Users\OMNI-DEV\Desktop\Projets\Duperrex TRCV\bin\TRC_GS_COMMUNICATION.pdb
+C:\Users\OMNI-DEV\Desktop\Projets\Duperrex TRCV\bin\AjaxControlToolkit.dll
+C:\Users\OMNI-DEV\Desktop\Projets\Duperrex TRCV\bin\ExcelLibrary.dll
+C:\Users\OMNI-DEV\Desktop\Projets\Duperrex TRCV\bin\itextsharp.dll
+C:\Users\OMNI-DEV\Desktop\Projets\Duperrex TRCV\bin\Microsoft.Web.Mvc.dll
+C:\Users\OMNI-DEV\Desktop\Projets\Duperrex TRCV\bin\System.ComponentModel.DataAnnotations.dll
+C:\Users\OMNI-DEV\Desktop\Projets\Duperrex TRCV\bin\System.Web.Abstractions.dll
+C:\Users\OMNI-DEV\Desktop\Projets\Duperrex TRCV\bin\System.Web.Mvc.dll
+C:\Users\OMNI-DEV\Desktop\Projets\Duperrex TRCV\bin\System.Web.Routing.dll
+C:\Users\OMNI-DEV\Desktop\Projets\Duperrex TRCV\bin\fr\System.Web.Mvc.resources.dll
+C:\Users\OMNI-DEV\Desktop\Projets\Duperrex TRCV\obj\Debug\TRC_GS_COMMUNICATION.Properties.Resources.resources
+C:\Users\OMNI-DEV\Desktop\Projets\Duperrex TRCV\obj\Debug\TRC_GS_COMMUNICATION.csproj.GenerateResource.Cache
+C:\Users\OMNI-DEV\Desktop\Projets\Duperrex TRCV\obj\Debug\TRC_GS_COMMUNICATION.dll
+C:\Users\OMNI-DEV\Desktop\Projets\Duperrex TRCV\obj\Debug\TRC_GS_COMMUNICATION.pdb
+C:\Users\OMNI-DEV\Desktop\Projets\Duperrex TRCV\obj\Debug\TRC_GS_COMMUNICATION.csprojResolveAssemblyReference.cache
+C:\Users\OMNI-DEV\Desktop\demo\Duperrex TRCV\bin\TRC_GS_COMMUNICATION.dll
+C:\Users\OMNI-DEV\Desktop\demo\Duperrex TRCV\bin\TRC_GS_COMMUNICATION.pdb
+C:\Users\OMNI-DEV\Desktop\demo\Duperrex TRCV\bin\AjaxControlToolkit.dll
+C:\Users\OMNI-DEV\Desktop\demo\Duperrex TRCV\bin\ExcelLibrary.dll
+C:\Users\OMNI-DEV\Desktop\demo\Duperrex TRCV\bin\itextsharp.dll
+C:\Users\OMNI-DEV\Desktop\demo\Duperrex TRCV\bin\Microsoft.Web.Mvc.dll
+C:\Users\OMNI-DEV\Desktop\demo\Duperrex TRCV\bin\System.ComponentModel.DataAnnotations.dll
+C:\Users\OMNI-DEV\Desktop\demo\Duperrex TRCV\bin\System.Web.Abstractions.dll
+C:\Users\OMNI-DEV\Desktop\demo\Duperrex TRCV\bin\System.Web.Mvc.dll
+C:\Users\OMNI-DEV\Desktop\demo\Duperrex TRCV\bin\System.Web.Routing.dll
+C:\Users\OMNI-DEV\Desktop\demo\Duperrex TRCV\bin\fr\System.Web.Mvc.resources.dll
+C:\Users\OMNI-DEV\Desktop\demo\Duperrex TRCV\obj\Debug\TRC_GS_COMMUNICATION.Properties.Resources.resources
+C:\Users\OMNI-DEV\Desktop\demo\Duperrex TRCV\obj\Debug\TRC_GS_COMMUNICATION.csproj.GenerateResource.Cache
+C:\Users\OMNI-DEV\Desktop\demo\Duperrex TRCV\obj\Debug\TRC_GS_COMMUNICATION.dll
+C:\Users\OMNI-DEV\Desktop\demo\Duperrex TRCV\obj\Debug\TRC_GS_COMMUNICATION.pdb
+C:\Users\vaio\Desktop\Duperrex TRCV\bin\TRC_GS_COMMUNICATION.dll
+C:\Users\vaio\Desktop\Duperrex TRCV\bin\TRC_GS_COMMUNICATION.pdb
+C:\Users\vaio\Desktop\Duperrex TRCV\bin\AjaxControlToolkit.dll
+C:\Users\vaio\Desktop\Duperrex TRCV\bin\ExcelLibrary.dll
+C:\Users\vaio\Desktop\Duperrex TRCV\bin\itextsharp.dll
+C:\Users\vaio\Desktop\Duperrex TRCV\bin\Microsoft.Web.Mvc.dll
+C:\Users\vaio\Desktop\Duperrex TRCV\bin\System.ComponentModel.DataAnnotations.dll
+C:\Users\vaio\Desktop\Duperrex TRCV\bin\System.Web.Abstractions.dll
+C:\Users\vaio\Desktop\Duperrex TRCV\bin\System.Web.Mvc.dll
+C:\Users\vaio\Desktop\Duperrex TRCV\bin\System.Web.Routing.dll
+C:\Users\vaio\Desktop\Duperrex TRCV\bin\fr\System.Web.Mvc.resources.dll
+C:\Users\vaio\Desktop\Duperrex TRCV\obj\Debug\TRC_GS_COMMUNICATION.csprojResolveAssemblyReference.cache
+C:\Users\vaio\Desktop\Duperrex TRCV\obj\Debug\TRC_GS_COMMUNICATION.Properties.Resources.resources
+C:\Users\vaio\Desktop\Duperrex TRCV\obj\Debug\TRC_GS_COMMUNICATION.csproj.GenerateResource.Cache
+C:\Users\vaio\Desktop\Duperrex TRCV\obj\Debug\TRC_GS_COMMUNICATION.dll
+C:\Users\vaio\Desktop\Duperrex TRCV\obj\Debug\TRC_GS_COMMUNICATION.pdb
+C:\Users\OMNI-DEV\Desktop\Duperrex TRCV\obj\Debug\TRC_GS_COMMUNICATION.Properties.Resources.resources
+C:\Users\OMNI-DEV\Desktop\Duperrex TRCV\obj\Debug\TRC_GS_COMMUNICATION.csproj.GenerateResource.Cache
+C:\Users\OMNI-DEV\Desktop\Duperrex TRCV\bin\TRC_GS_COMMUNICATION.dll
+C:\Users\OMNI-DEV\Desktop\Duperrex TRCV\bin\TRC_GS_COMMUNICATION.pdb
+C:\Users\OMNI-DEV\Desktop\Duperrex TRCV\bin\AjaxControlToolkit.dll
+C:\Users\OMNI-DEV\Desktop\Duperrex TRCV\bin\ExcelLibrary.dll
+C:\Users\OMNI-DEV\Desktop\Duperrex TRCV\bin\itextsharp.dll
+C:\Users\OMNI-DEV\Desktop\Duperrex TRCV\bin\Microsoft.Web.Mvc.dll
+C:\Users\OMNI-DEV\Desktop\Duperrex TRCV\bin\System.ComponentModel.DataAnnotations.dll
+C:\Users\OMNI-DEV\Desktop\Duperrex TRCV\bin\System.Web.Abstractions.dll
+C:\Users\OMNI-DEV\Desktop\Duperrex TRCV\bin\System.Web.Mvc.dll
+C:\Users\OMNI-DEV\Desktop\Duperrex TRCV\bin\System.Web.Routing.dll
+C:\Users\OMNI-DEV\Desktop\Duperrex TRCV\bin\fr\System.Web.Mvc.resources.dll
+C:\Users\OMNI-DEV\Desktop\Duperrex TRCV\obj\Debug\TRC_GS_COMMUNICATION.dll
+C:\Users\OMNI-DEV\Desktop\Duperrex TRCV\obj\Debug\TRC_GS_COMMUNICATION.pdb
+C:\Users\OMNI-DEV\Desktop\Duperrex TRCV\obj\Debug\TRC_GS_COMMUNICATION.csprojResolveAssemblyReference.cache
+C:\Users\OMNI-DEV\Desktop\CIMAT Tricolis\bin\TRC_GS_COMMUNICATION.dll
+C:\Users\OMNI-DEV\Desktop\CIMAT Tricolis\bin\TRC_GS_COMMUNICATION.pdb
+C:\Users\OMNI-DEV\Desktop\CIMAT Tricolis\bin\AjaxControlToolkit.dll
+C:\Users\OMNI-DEV\Desktop\CIMAT Tricolis\bin\ExcelLibrary.dll
+C:\Users\OMNI-DEV\Desktop\CIMAT Tricolis\bin\itextsharp.dll
+C:\Users\OMNI-DEV\Desktop\CIMAT Tricolis\bin\Microsoft.Web.Mvc.dll
+C:\Users\OMNI-DEV\Desktop\CIMAT Tricolis\bin\System.ComponentModel.DataAnnotations.dll
+C:\Users\OMNI-DEV\Desktop\CIMAT Tricolis\bin\System.Web.Abstractions.dll
+C:\Users\OMNI-DEV\Desktop\CIMAT Tricolis\bin\System.Web.Mvc.dll
+C:\Users\OMNI-DEV\Desktop\CIMAT Tricolis\bin\System.Web.Routing.dll
+C:\Users\OMNI-DEV\Desktop\CIMAT Tricolis\bin\fr\System.Web.Mvc.resources.dll
+C:\Users\OMNI-DEV\Desktop\CIMAT Tricolis\obj\Debug\TRC_GS_COMMUNICATION.csprojResolveAssemblyReference.cache
+C:\Users\OMNI-DEV\Desktop\CIMAT Tricolis\obj\Debug\TRC_GS_COMMUNICATION.Properties.Resources.resources
+C:\Users\OMNI-DEV\Desktop\CIMAT Tricolis\obj\Debug\TRC_GS_COMMUNICATION.csproj.GenerateResource.Cache
+C:\Users\OMNI-DEV\Desktop\CIMAT Tricolis\obj\Debug\TRC_GS_COMMUNICATION.dll
+C:\Users\OMNI-DEV\Desktop\CIMAT Tricolis\obj\Debug\TRC_GS_COMMUNICATION.pdb
+C:\Users\OMNI-DEV\Desktop\TAMMARO\bin\TRC_GS_COMMUNICATION.dll
+C:\Users\OMNI-DEV\Desktop\TAMMARO\bin\TRC_GS_COMMUNICATION.pdb
+C:\Users\OMNI-DEV\Desktop\TAMMARO\bin\AjaxControlToolkit.dll
+C:\Users\OMNI-DEV\Desktop\TAMMARO\bin\ExcelLibrary.dll
+C:\Users\OMNI-DEV\Desktop\TAMMARO\bin\itextsharp.dll
+C:\Users\OMNI-DEV\Desktop\TAMMARO\bin\Microsoft.Web.Mvc.dll
+C:\Users\OMNI-DEV\Desktop\TAMMARO\bin\System.ComponentModel.DataAnnotations.dll
+C:\Users\OMNI-DEV\Desktop\TAMMARO\bin\System.Web.Abstractions.dll
+C:\Users\OMNI-DEV\Desktop\TAMMARO\bin\System.Web.Mvc.dll
+C:\Users\OMNI-DEV\Desktop\TAMMARO\bin\System.Web.Routing.dll
+C:\Users\OMNI-DEV\Desktop\TAMMARO\bin\fr\System.Web.Mvc.resources.dll
+C:\Users\OMNI-DEV\Desktop\TAMMARO\obj\Debug\TRC_GS_COMMUNICATION.csprojResolveAssemblyReference.cache
+C:\Users\OMNI-DEV\Desktop\TAMMARO\obj\Debug\TRC_GS_COMMUNICATION.Properties.Resources.resources
+C:\Users\OMNI-DEV\Desktop\TAMMARO\obj\Debug\TRC_GS_COMMUNICATION.csproj.GenerateResource.Cache
+C:\Users\OMNI-DEV\Desktop\TAMMARO\obj\Debug\TRC_GS_COMMUNICATION.dll
+C:\Users\OMNI-DEV\Desktop\TAMMARO\obj\Debug\TRC_GS_COMMUNICATION.pdb
+C:\Users\Omniyat\Desktop\TAMMARO\bin\TRC_GS_COMMUNICATION.dll
+C:\Users\Omniyat\Desktop\TAMMARO\bin\TRC_GS_COMMUNICATION.pdb
+C:\Users\Omniyat\Desktop\TAMMARO\bin\AjaxControlToolkit.dll
+C:\Users\Omniyat\Desktop\TAMMARO\bin\ExcelLibrary.dll
+C:\Users\Omniyat\Desktop\TAMMARO\bin\itextsharp.dll
+C:\Users\Omniyat\Desktop\TAMMARO\bin\Microsoft.Web.Mvc.dll
+C:\Users\Omniyat\Desktop\TAMMARO\bin\System.ComponentModel.DataAnnotations.dll
+C:\Users\Omniyat\Desktop\TAMMARO\bin\System.Web.Abstractions.dll
+C:\Users\Omniyat\Desktop\TAMMARO\bin\System.Web.Mvc.dll
+C:\Users\Omniyat\Desktop\TAMMARO\bin\System.Web.Routing.dll
+C:\Users\Omniyat\Desktop\TAMMARO\bin\fr\System.Web.Mvc.resources.dll
+C:\Users\Omniyat\Desktop\TAMMARO\obj\Debug\TRC_GS_COMMUNICATION.Properties.Resources.resources
+C:\Users\Omniyat\Desktop\TAMMARO\obj\Debug\TRC_GS_COMMUNICATION.csproj.GenerateResource.Cache
+C:\Users\Omniyat\Desktop\TAMMARO\obj\Debug\TRC_GS_COMMUNICATION.dll
+C:\Users\Omniyat\Desktop\TAMMARO\obj\Debug\TRC_GS_COMMUNICATION.pdb
+D:\PROJET EFFECTUER\TAMMARO\EN COURS\TAMMARO\bin\TRC_GS_COMMUNICATION.dll
+D:\PROJET EFFECTUER\TAMMARO\EN COURS\TAMMARO\bin\TRC_GS_COMMUNICATION.pdb
+D:\PROJET EFFECTUER\TAMMARO\EN COURS\TAMMARO\bin\AjaxControlToolkit.dll
+D:\PROJET EFFECTUER\TAMMARO\EN COURS\TAMMARO\bin\ExcelLibrary.dll
+D:\PROJET EFFECTUER\TAMMARO\EN COURS\TAMMARO\bin\itextsharp.dll
+D:\PROJET EFFECTUER\TAMMARO\EN COURS\TAMMARO\bin\Microsoft.Web.Mvc.dll
+D:\PROJET EFFECTUER\TAMMARO\EN COURS\TAMMARO\bin\System.ComponentModel.DataAnnotations.dll
+D:\PROJET EFFECTUER\TAMMARO\EN COURS\TAMMARO\bin\System.Web.Abstractions.dll
+D:\PROJET EFFECTUER\TAMMARO\EN COURS\TAMMARO\bin\System.Web.Mvc.dll
+D:\PROJET EFFECTUER\TAMMARO\EN COURS\TAMMARO\bin\System.Web.Routing.dll
+D:\PROJET EFFECTUER\TAMMARO\EN COURS\TAMMARO\bin\fr\System.Web.Mvc.resources.dll
+D:\PROJET EFFECTUER\TAMMARO\EN COURS\TAMMARO\obj\Debug\TRC_GS_COMMUNICATION.Properties.Resources.resources
+D:\PROJET EFFECTUER\TAMMARO\EN COURS\TAMMARO\obj\Debug\TRC_GS_COMMUNICATION.csproj.GenerateResource.Cache
+D:\PROJET EFFECTUER\TAMMARO\EN COURS\TAMMARO\obj\Debug\TRC_GS_COMMUNICATION.dll
+D:\PROJET EFFECTUER\TAMMARO\EN COURS\TAMMARO\obj\Debug\TRC_GS_COMMUNICATION.pdb
+D:\PROJET EFFECTUER\TAMMARO\EN COURS\TAMMARO\obj\Debug\TRC_GS_COMMUNICATION.csprojResolveAssemblyReference.cache
+D:\PROJETS\EN COURS\Tammaro\TAMMARO\bin\TRC_GS_COMMUNICATION.dll
+D:\PROJETS\EN COURS\Tammaro\TAMMARO\bin\TRC_GS_COMMUNICATION.pdb
+D:\PROJETS\EN COURS\Tammaro\TAMMARO\bin\AjaxControlToolkit.dll
+D:\PROJETS\EN COURS\Tammaro\TAMMARO\bin\ExcelLibrary.dll
+D:\PROJETS\EN COURS\Tammaro\TAMMARO\bin\itextsharp.dll
+D:\PROJETS\EN COURS\Tammaro\TAMMARO\bin\Microsoft.Web.Mvc.dll
+D:\PROJETS\EN COURS\Tammaro\TAMMARO\bin\System.ComponentModel.DataAnnotations.dll
+D:\PROJETS\EN COURS\Tammaro\TAMMARO\bin\System.Web.Abstractions.dll
+D:\PROJETS\EN COURS\Tammaro\TAMMARO\bin\System.Web.Mvc.dll
+D:\PROJETS\EN COURS\Tammaro\TAMMARO\bin\System.Web.Routing.dll
+D:\PROJETS\EN COURS\Tammaro\TAMMARO\bin\fr\System.Web.Mvc.resources.dll
+D:\PROJETS\EN COURS\Tammaro\TAMMARO\obj\Debug\TRC_GS_COMMUNICATION.Properties.Resources.resources
+D:\PROJETS\EN COURS\Tammaro\TAMMARO\obj\Debug\TRC_GS_COMMUNICATION.csproj.GenerateResource.Cache
+D:\PROJETS\EN COURS\Tammaro\TAMMARO\obj\Debug\TRC_GS_COMMUNICATION.dll
+D:\PROJETS\EN COURS\Tammaro\TAMMARO\obj\Debug\TRC_GS_COMMUNICATION.pdb
+D:\PROJETS\EN COURS\Tammaro\TAMMARO\obj\Debug\TRC_GS_COMMUNICATION.csprojResolveAssemblyReference.cache
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO WEB\bin\TRC_GS_COMMUNICATION.dll
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO WEB\bin\TRC_GS_COMMUNICATION.pdb
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO WEB\bin\AjaxControlToolkit.dll
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO WEB\bin\ExcelLibrary.dll
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO WEB\bin\itextsharp.dll
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO WEB\bin\Microsoft.Web.Mvc.dll
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO WEB\bin\System.ComponentModel.DataAnnotations.dll
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO WEB\bin\System.Web.Abstractions.dll
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO WEB\bin\System.Web.Mvc.dll
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO WEB\bin\System.Web.Routing.dll
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO WEB\bin\fr\System.Web.Mvc.resources.dll
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO WEB\obj\Debug\TRC_GS_COMMUNICATION.csprojResolveAssemblyReference.cache
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO WEB\obj\Debug\TRC_GS_COMMUNICATION.Properties.Resources.resources
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO WEB\obj\Debug\TRC_GS_COMMUNICATION.csproj.GenerateResource.Cache
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO WEB\obj\Debug\TRC_GS_COMMUNICATION.dll
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO WEB\obj\Debug\TRC_GS_COMMUNICATION.pdb
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO\TAMMARO WEB\bin\TRC_GS_COMMUNICATION.dll
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO\TAMMARO WEB\bin\TRC_GS_COMMUNICATION.pdb
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO\TAMMARO WEB\bin\AjaxControlToolkit.dll
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO\TAMMARO WEB\bin\ExcelLibrary.dll
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO\TAMMARO WEB\bin\itextsharp.dll
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO\TAMMARO WEB\bin\Microsoft.Web.Mvc.dll
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO\TAMMARO WEB\bin\System.ComponentModel.DataAnnotations.dll
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO\TAMMARO WEB\bin\System.Web.Abstractions.dll
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO\TAMMARO WEB\bin\System.Web.Mvc.dll
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO\TAMMARO WEB\bin\System.Web.Routing.dll
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO\TAMMARO WEB\bin\fr\System.Web.Mvc.resources.dll
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO\TAMMARO WEB\obj\Debug\TRC_GS_COMMUNICATION.Properties.Resources.resources
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO\TAMMARO WEB\obj\Debug\TRC_GS_COMMUNICATION.csproj.GenerateResource.Cache
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO\TAMMARO WEB\obj\Debug\TRC_GS_COMMUNICATION.dll
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO\TAMMARO WEB\obj\Debug\TRC_GS_COMMUNICATION.pdb
+C:\Users\Omniyat\Documents\Visual Studio 2010\Projects\HIBEL\TAMMARO\TAMMARO WEB\obj\Debug\TRC_GS_COMMUNICATION.csprojResolveAssemblyReference.cache
+C:\Users\OMNI-DEV\Desktop\TAMMARO WEB\bin\TRC_GS_COMMUNICATION.dll
+C:\Users\OMNI-DEV\Desktop\TAMMARO WEB\bin\TRC_GS_COMMUNICATION.pdb
+C:\Users\OMNI-DEV\Desktop\TAMMARO WEB\bin\AjaxControlToolkit.dll
+C:\Users\OMNI-DEV\Desktop\TAMMARO WEB\bin\ExcelLibrary.dll
+C:\Users\OMNI-DEV\Desktop\TAMMARO WEB\bin\itextsharp.dll
+C:\Users\OMNI-DEV\Desktop\TAMMARO WEB\bin\Microsoft.Web.Mvc.dll
+C:\Users\OMNI-DEV\Desktop\TAMMARO WEB\bin\System.ComponentModel.DataAnnotations.dll
+C:\Users\OMNI-DEV\Desktop\TAMMARO WEB\bin\System.Web.Abstractions.dll
+C:\Users\OMNI-DEV\Desktop\TAMMARO WEB\bin\System.Web.Mvc.dll
+C:\Users\OMNI-DEV\Desktop\TAMMARO WEB\bin\System.Web.Routing.dll
+C:\Users\OMNI-DEV\Desktop\TAMMARO WEB\bin\fr\System.Web.Mvc.resources.dll
+C:\Users\OMNI-DEV\Desktop\TAMMARO WEB\obj\Debug\TRC_GS_COMMUNICATION.csprojResolveAssemblyReference.cache
+C:\Users\OMNI-DEV\Desktop\TAMMARO WEB\obj\Debug\TRC_GS_COMMUNICATION.Properties.Resources.resources
+C:\Users\OMNI-DEV\Desktop\TAMMARO WEB\obj\Debug\TRC_GS_COMMUNICATION.csproj.GenerateResource.Cache
+C:\Users\OMNI-DEV\Desktop\TAMMARO WEB\obj\Debug\TRC_GS_COMMUNICATION.dll
+C:\Users\OMNI-DEV\Desktop\TAMMARO WEB\obj\Debug\TRC_GS_COMMUNICATION.pdb

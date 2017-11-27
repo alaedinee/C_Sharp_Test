@@ -1,0 +1,63 @@
+﻿body{
+				font-family: Verdana;
+			}
+			
+			.greenBtn{
+				display:block;
+				height:34px;
+				width:180px;
+				background:url(../Images/green_btn.png) no-repeat;
+				text-align:center;
+				color:#fff;
+				font-weight:bold;
+				font-size: 15px;
+				padding-top : 10px;
+				margin:auto;
+				margin-top:0px;
+				margin-bottom:14px;
+				text-decoration:none;
+			}
+			
+			.sTitle{
+				color:#fff;
+				text-align:center;
+				padding : 0px 3px 3px 3px;
+				margin:0px;
+			}
+			
+			label{
+				font-size:12px;
+				color:#fff;
+			}
+			
+			input{
+				height:30px;
+				border:1px solid #006d88;
+				padding:2px 6px;
+				font-size:11px;
+				color:#b1b1b1;
+				width:230px;
+				margin-top:3px;
+			}
+			
+			.dvError{
+				font-size:11px;
+				color:#fd4b4b;
+				text-align:center;
+				padding-bottom:6px;
+			}
+			
+			.banner
+			{
+			    width:641px;height:75px;background:url(../Images/banner.png) no-repeat
+			}
+			
+			.img_back
+			{
+			    background:url(../Images/img_back.png) center center no-repeat
+			}
+			
+			.auth
+			{
+			    background:url(../Images/back_top_login.png) repeat-x;height:183px;padding:15px
+			}

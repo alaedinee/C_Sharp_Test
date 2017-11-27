@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Roles>
+  
+  <Item>
+    <Name>CollaborateurMDM</Name>    
+  </Item>
+  
+  <Item>
+    <Name>Collaborateur</Name>
+	<Extends>
+      <Extend>CollaborateurMDM</Extend>
+    </Extends>
+  </Item>
+  
+  <Item>
+    <Name>CollaborateurHABITAT</Name>
+	<Extends>
+      <Extend>CollaborateurMDM</Extend>
+    </Extends>
+  </Item>
+
+</Roles>
